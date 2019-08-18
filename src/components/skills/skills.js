@@ -5,7 +5,7 @@ const Skills = () => (
 		<div className="container">
 			<div className="columns">
 				<div className="column" data-aos="fade-up">
-					<h1 className="title" data-aos="zoom-in">Compétences</h1>
+					<h1 className="title has-text-centered" data-aos="zoom-in">Compétences</h1>
 				</div>
 			</div>
 		</div>
