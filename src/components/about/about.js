@@ -5,8 +5,8 @@ const About = () => (
 		<div className="container">
 			<div className="columns">
 				<div className="column" data-aos="fade-up">
-					<h1 className="title" data-aos="zoom-in-left">
-						Présentation
+					<h1 className="title has-text-centered" data-aos="zoom-in-left">
+						présentation
 					</h1>
 					<p className="has-text-justified" data-aos="zoom-in-right">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. In bibendum consectetur sapien, interdum fermentum nibh ultricies at. Nam ut elementum metus.

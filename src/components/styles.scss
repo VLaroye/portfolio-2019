@@ -1,10 +1,19 @@
 @charset "utf-8";
 @import url('https://unpkg.com/aos@2.3.1/dist/aos.css');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
 
 // Customize Bulma variables here
-$family-sans-serif: "Roboto", "sans-serif";
 $narrow-screen : 80rem;
 $ease-in-out-transition: 200ms ease-in-out;
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+header, nav, h1, h2, h3, h4, h5, h6{
+	font-family: 'Montserrat', sans-serif;
+	text-transform: capitalize;
+}
 
 @import "~bulma/bulma.sass";
 

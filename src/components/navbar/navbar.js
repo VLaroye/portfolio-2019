@@ -21,7 +21,7 @@ const Navbar = ({ isTransparent }) => (
 				<div data-aos="fade-left" className="navbar-item">
 					<a data-view="#portfolio" className="navbar-item" href="#portfolio">Portfolio</a>
 				</div>
-				<div data-aos="fade-up" className="navbar-item">
+				<div data-aos="fade-up" className="navbar-item cta">
 					<button className="button is-primary" data-view="#contact">
 						<span>Contactez moi
 							<span role="img" aria-label="emoji">👋</span>
