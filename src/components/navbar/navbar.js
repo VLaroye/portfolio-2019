@@ -1,7 +1,7 @@
 import React from 'react'
 
-const Navbar = () => (
-	<nav className="navbar is-transparent is-fixed-top">
+const Navbar = ({ isTransparent }) => (
+	<nav className={`navbar ${isTransparent ? "is-transparent" : ""} is-fixed-top`}>
 		<div className="navbar-brand">
 			<a data-view="#home" className="navbar-item logo" href="/"  data-aos="fade-left">
 				<b>Vincent Laroye</b>
@@ -21,12 +21,9 @@ const Navbar = () => (
 				<div data-aos="fade-left" className="navbar-item">
 					<a data-view="#portfolio" className="navbar-item" href="#portfolio">Portfolio</a>
 				</div>
-				<div data-aos="fade-left" className="navbar-item">
-					<a data-view="#contact" className="navbar-item" href="#contact">Contact</a>
-				</div>
-				<div data-aos="fade-up" className="navbar-item is-hidden">
+				<div data-aos="fade-up" className="navbar-item">
 					<button className="button is-primary" data-view="#contact">
-						<span>Say hello
+						<span>Contactez moi
 							<span role="img" aria-label="emoji">👋</span>
 						</span>
 					</button>

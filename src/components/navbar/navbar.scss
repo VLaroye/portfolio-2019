@@ -1,0 +1,26 @@
+nav {
+	transition: background-color $ease-in-out-transition;
+	.logo{
+			padding: 0;
+			margin: .5rem;
+	}
+	.navbar-item{
+			padding: 0;
+			margin: .5rem;
+			text-transform: capitalize;
+			&:hover{
+					border-bottom: 1px solid;
+			}
+			& a:hover, &.cta:hover, &.logo:hover{
+					border-bottom: none;
+			}
+	}
+	&.navbar{
+			&.is-transparent{
+					background-color: transparent;
+			}
+			&.is-fixed-top .navbar-menu{
+					overflow: hidden;
+			}
+	}
+}

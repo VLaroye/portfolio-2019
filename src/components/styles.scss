@@ -4,7 +4,9 @@
 // Customize Bulma variables here
 $family-sans-serif: "Roboto", "sans-serif";
 $narrow-screen : 80rem;
+$ease-in-out-transition: 200ms ease-in-out;
 
 @import "~bulma/bulma.sass";
 
 @import "./header/header.scss";
+@import "./navbar/navbar.scss";
