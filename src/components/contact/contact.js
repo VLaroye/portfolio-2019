@@ -10,33 +10,33 @@ const Contact = () => (
 			</div>
 			<div className="columns is-centered">
 				<div className="column is-three-quarters">
-					<form class="container">
-						<div class="field" data-aos="fade-up">
-							<label class="label">Nom</label>
-							<div class="control has-icons-left">
-								<input class="input" type="text"></input>
-								<span class="icon is-small is-left">
-									<i class="fas fa-user"></i>
+					<form className="container">
+						<div className="field" data-aos="fade-up">
+							<label className="label">Nom</label>
+							<div className="control has-icons-left">
+								<input className="input" type="text"></input>
+								<span className="icon is-small is-left">
+									<i className="fas fa-user"></i>
 								</span>
 							</div>
 						</div>
-						<div class="field" data-aos="fade-up">
-							<label class="label">Email</label>
-							<div class="control has-icons-left">
-								<input class="input" type="text"></input>
-								<span class="icon is-small is-left">
-									<i class="fas fa-envelope"></i>
+						<div className="field" data-aos="fade-up">
+							<label className="label">Email</label>
+							<div className="control has-icons-left">
+								<input className="input" type="text"></input>
+								<span className="icon is-small is-left">
+									<i className="fas fa-envelope"></i>
 								</span>
 							</div>
 						</div>
-						<div class="field" data-aos="fade-up">
-							<label class="label">Message</label>
-							<div class="control">
-								<textarea class="textarea"></textarea>
+						<div className="field" data-aos="fade-up">
+							<label className="label">Message</label>
+							<div className="control">
+								<textarea className="textarea"></textarea>
 							</div>
 						</div>
-						<div class="control" data-aos="fade-up">
-							<button class="button is-primary">Envoyer</button>
+						<div className="control" data-aos="fade-up">
+							<button className="button is-primary">Envoyer</button>
 						</div>
 					</form>
 				</div>
